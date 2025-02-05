@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in Expo and involves a race condition where the app tries to access AsyncStorage before it's fully initialized.  This can happen during app startup or when using AsyncStorage within a component that renders before AsyncStorage is ready. The error message may be vague or not directly point to AsyncStorage.
